@@ -357,13 +357,10 @@
                                                 if (len > 0) {
                                                     rec_count = rec_count + 1;
                                                     result_final.push({
-                                                      'ID': rec[0].trim(),
-                                                      'DESCRIPTION': rec[1].trim(),
-                                                      'ASSET_TYPE': rec[2].trim(),
-                                                      'COMPANY_CODE': rec[3].trim(),
-                                                      'ASSET_CLASS': rec[4].trim(),
-                                                      'COST_CENTER': rec[5].trim(),
-                                                      'CWIP': rec[6].trim(),
+                                                      'EM_Employee_ID': rec[0].trim(),
+                                                      'EM_Employee_Desc': rec[1].trim(),
+                                                      'EM_EMPL_TOT': rec[2].trim(),
+                                                    
                                                     });
                                                 }
                                             }
